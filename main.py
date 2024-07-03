@@ -1,8 +1,7 @@
 def getinput():
-    userval1 = input('Enter an integer')
-    userval2 = input('Enter a second integer')
+    num = int(input('Enter an integer'))
     
-    return userval1, userval2
+    return num
 
 
 def getsum(v1, v2):
